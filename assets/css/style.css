@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: "Poppins", "Arial", sans-serif;
     color: var(--TextColor);
 }
@@ -20,20 +17,103 @@
 }
 
 body {
-    overflow: hidden;
     height: 100vh;
-    width: 100vw;
     background-color: var(--Background);
 }
 
-.noOpacity {
-    opacity: 0 !important;
+/* MAIN */
+
+main {
+    height: 100%;
+    position: absolute;
+    right: 0;
 }
 
-input[type=number]::-webkit-inner-spin-button{
-    appearance: none;
+h1 {
+    padding: 0;
+    margin: 0;
+    text-decoration: underline 1px black;
+    text-underline-offset: 0.5rem;
 }
 
-input[type=number]::-moz-inner-spin-button{
-    appearance: none;
+.card-info {
+    height: 10rem;
+    box-shadow: var(--Shadow);
+}
+
+.card-table {
+    box-shadow: var(--Shadow);
+}
+
+.card-employer {
+    height: 25rem;
+    box-shadow: var(--Shadow);
+}
+
+.inputSearch {
+    background-color: var(--Background);
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+}
+
+.inputSearch input {
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    
+}
+
+th {
+    background-color: red;
+}
+
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+
+/* NAV */
+nav {
+    background-color: var(--White);
+    position: fixed;
+    left: 0;
+    height: 100vh;
+}
+
+.pageOption a {
+    color: var(--Black);
+}
+
+.pageOption {
+    transition: 0.2s;
+}
+
+nav .pageOption:hover {
+    transform: translateX(8px);
+    background-color: var(--Background);
+}
+
+nav .pageOption img {
+    height: 18px;
+    width: 18px;
+}
+
+hr {
+    width: 100%;
+    background-color: #767676;
+}
+
+.paragraph01 {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 400;
+}
+
+.paragraph02 {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
