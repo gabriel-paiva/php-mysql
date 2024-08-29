@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Estoque</title>
+    <title>Serviços</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -35,25 +35,17 @@
                                 <input type="text" class="form-control">
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Código</label>
+                                <label class="form-label">Descrição</label>
                                 <input type="text" class="form-control">
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Quantidade</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Custo</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Valor de venda</label>
+                                <label class="form-label">Preço</label>
                                 <input type="text" class="form-control">
                             </div>
                             <button type="submit" class="btn btn-primary col-12">Adicionar ao estoque</button>
                     </div>
 
-                    <div class="card d-flex p-3 col">
+                    <div class="table-services card d-flex p-3 col">
                         <div class="d-flex gap-5 pb-3 align-items-center">
                             <div class="inputSearch col-4 d-flex justify-content-between">
                                 <input type="text" placeholder="Filtrar" name="SearchBar" title="Busque aqui">

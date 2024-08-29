@@ -10,13 +10,13 @@ if (!isset($_SESSION['userName'])) {
 
 require_once("./lib/connectionBaseTeste.php");
 
-$sqlSelectServices = "SELECT * FROM atendimento ORDER BY ID DESC LIMIT 18";
-$sqlSelectEmployers = "SELECT * FROM usuario LIMIT 6";
-$stmtS = $connection->query($sqlSelectServices);
-$stmtE = $connection->query($sqlSelectEmployers);
+// $sqlSelectServices = "SELECT * FROM atendimento ORDER BY ID DESC LIMIT 18";
+// $sqlSelectEmployers = "SELECT * FROM usuario LIMIT 6";
+// $stmtS = $connection->query($sqlSelectServices);
+// $stmtE = $connection->query($sqlSelectEmployers);
 
-$services = $stmtS->fetchAll(PDO::FETCH_OBJ);
-$employers = $stmtE->fetchAll(PDO::FETCH_OBJ);
+// $services = $stmtS->fetchAll(PDO::FETCH_OBJ);
+// $employers = $stmtE->fetchAll(PDO::FETCH_OBJ);
 ?>
 
 <!doctype html>
@@ -25,7 +25,7 @@ $employers = $stmtE->fetchAll(PDO::FETCH_OBJ);
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bootstrap demo</title>
+	<title>index</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.datatables.net/2.1.4/css/dataTables.dataTables.min.css">

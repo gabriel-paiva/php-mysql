@@ -9,7 +9,7 @@
     <div id="menu" class="d-flex flex-column gap-2 py-2 ps-2">
         <div class="pageOption py-3 ps-2 d-flex align-items-center gap-2">
             <img src="assets/img/icon/nav/addService.svg" class="" alt="Adicionar serviço">
-            <a href="#" class="paragraph01 text-decoration-none">PDV</a>
+            <a href="" class="paragraph01 text-decoration-none">PDV</a>
         </div>
         <div class="pageOption py-3 ps-2 d-flex align-items-center gap-2">
             <img src="assets/img/icon/nav/home.svg" alt="Ilustração de casa">
@@ -17,7 +17,7 @@
         </div>
         <div class="pageOption py-3 ps-2 d-flex align-items-center gap-2">
             <img src="assets/img/icon/nav/servicesDone.svg" alt="Adicionar serviço">
-            <a href="#" class="paragraph01 text-decoration-none">Serviços</a>
+            <a href="services.php" class="paragraph01 text-decoration-none">Serviços</a>
         </div>  
         <div class="pageOption py-3 ps-2 d-flex align-items-center gap-2">
             <img src="assets/img/icon/nav/graphic.svg" alt="Ilustração de gráfico">
