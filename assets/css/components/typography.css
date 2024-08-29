@@ -1,0 +1,39 @@
+.titleH1 {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+
+    height: fit-content;
+    width: fit-content;
+    border-bottom: 1px solid var(--TextColor);
+}
+
+.titleH2 {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.titleH3 {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.paragraph01 {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.paragraph02 {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.paragraph03 {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}

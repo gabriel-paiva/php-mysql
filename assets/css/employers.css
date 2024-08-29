@@ -1,0 +1,72 @@
+main {
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    height: fit-content;
+    max-height: 100vh;
+    width: 85%;
+    padding: 2.5rem;
+}
+
+.card {
+    height: 35vh;
+    width: calc(50% - 1.5rem);
+}
+
+.cardAdd {
+    order: -1;
+    background-color: #8325ff56;
+    border: 2px solid var(--Secondary);
+}
+
+.cardHeader {
+    position: relative;
+}
+
+.cardHeader span::after, .cardHeader span::before {
+    position: absolute;
+    
+    display: block;
+    content: "";
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    height: 1px;
+    width: 42%;
+    background-color: #767676;
+}
+
+.cardHeader span::after {
+    right: 0;
+}
+
+.cardHeader span::before {
+    left: 0;
+}
+
+.cardBody {
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+
+.cardBody img {
+    height: 225px;
+    width: 250px;
+}
+
+.cardBodyInfos {
+    overflow-y: scroll;
+    height: 80%;
+    width: 100%;
+}
+
+.infoContainer {
+    height: fit-content;
+    width: 100%;
+}
+
+.infoContainer span:nth-child(1){
+    font-weight: 500;
+}

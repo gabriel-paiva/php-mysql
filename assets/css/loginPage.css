@@ -1,0 +1,114 @@
+.formSide h2 {
+    font-size: 1.5rem;
+    font-weight: 450;
+}
+
+.formSide form button {
+    background-color: var(--Primary);
+    border: 2px solid var(--Primary);
+}
+
+.formSide form button:hover {
+    color: var(--Primary);
+}
+
+.imageSide {
+    height: 100%;
+    width: 40%;
+
+    background-image: url("../img/loginImage.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageSide > h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+/* LAPTOP */
+@media (max-width: 1024px)  {
+    .imageSide h1 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .formSide form {
+        width: 90%; 
+    }
+}
+
+/* TABLET */
+@media (max-width: 768px)  {
+    .imageSide {
+        display: none;
+    }
+
+    .formSide {
+        height: 100%;
+        width: 100%;
+    }
+
+    .loginPage {
+        background-image: linear-gradient(45deg, var(--Secondary) 65%, var(--White) 35%);
+    }
+
+    .formSide form {
+        width: 95%;
+    }
+
+    .formSide form h2 {
+        font-size: 1.5rem;
+        line-height: normal;
+
+        color: white;
+    }
+}
+
+/* MOBILE L */
+@media (max-width: 425px) {
+    .formSide h2 {
+        color: #282828;
+    }
+
+    .formSide form {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .formSide form label {
+        color: var(--White);
+    }
+
+    .formSide form button {
+        height: 64px;
+    }
+
+    .formSide form {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .formSide form label {
+        color: var(--White);
+    }
+    
+    .formSide form a {
+        text-decoration: underline;
+        color: var(--White);
+    }
+
+    .formSide form button {
+        height: 64px;
+    }
+
+    .formSide form .error, .formSide form .sucess  {
+        font-size: 0.5rem;
+    }
+}

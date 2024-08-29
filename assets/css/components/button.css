@@ -1,0 +1,17 @@
+.buttonComponent {
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: var(--Shadow);
+    outline: none;
+    
+    text-transform: lowercase;
+    font-weight: 500;
+    color: white;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buttonComponent:hover {
+    background-color: transparent;
+}

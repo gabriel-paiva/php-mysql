@@ -1,0 +1,169 @@
+.formSide {
+    height: 100%;
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .logoArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form .logoArea img {
+    height: 128px;
+    width: 128px;
+}
+
+form {
+    overflow: hidden;
+
+    min-height: 60%;
+    height: fit-content;
+    width: 70%;
+    background-color: var(--White);
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: var(--Shadow);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+
+    animation: 0.2s formAnimation ease-in-out;
+}
+
+form h2 {
+    height: fit-content;
+    width: 100%;
+
+    line-height: 4rem;
+    text-align: center;
+}
+
+form button {
+    width: 100%;
+}
+
+form a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: rgb(0, 119, 255);
+
+    transition: 0.2s;
+}
+
+form a:hover {
+    letter-spacing: 1px;
+}
+
+input {
+    height: 48px;
+    width: 100%;
+    background-color: var(--White);
+    box-shadow: var(--Shadow);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+
+    color: #767676;
+}
+
+input:focus {
+    border: 1px solid var(--Secondary);
+    color: black;
+}
+
+label {
+    font-weight: 500;
+}
+
+.inputSearch {
+    position: relative;
+    height: 28px;
+    width: 300px;
+    background-color: var(--Background);
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+
+    color: #767676;
+}
+
+.inputSearch input {
+    position: absolute;
+
+    height: 100%;
+    background-color: transparent;
+    padding: 0 0.5rem;
+    box-shadow: none;
+}
+
+.inputSearch img {
+    position: absolute;
+    right: 0.5rem;
+}
+
+.field {
+    height: fit-content;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.iconInput {
+    position: absolute;
+
+    height: 18px;
+    width: 18px;
+
+    top: 50%;
+    right: 0.5rem;
+
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.inputIconGroup {
+    position: relative;
+
+    height: fit-content;
+    width: 100%;
+}
+
+.outIn {
+    animation: 0.2s inputAnimation ease-in-out;
+}
+
+@keyframes inputAnimation {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes formAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
