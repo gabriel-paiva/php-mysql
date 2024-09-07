@@ -20,7 +20,7 @@ require_once("./lib/connectionBaseTeste.php");
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
 	<meta charset="utf-8">
@@ -44,23 +44,26 @@ require_once("./lib/connectionBaseTeste.php");
 </head>
 
 <body>
+	<nav>
+		<?php require_once "./html/navbar.php"; ?>
+	</nav>
+
 	<section class="d-flex">
-		<nav class="col-2">
-			<?php require_once "./html/navbar.php"; ?>
-		</nav>
+
+
 		<main class="col-10">
 			<section class="px-4 pt-4">
 				<div>
 					<h1 class="fs-2">Resumo</h1>
 				</div>
 				<div class="d-flex gap-5 my-4">
-					<div class="card-info card col"></div>
-					<div class="card-info card col"></div>
-					<div class="card-info card col"></div>
+					<div class="card-info col"></div>
+					<div class="card-info col"></div>
+					<div class="card-info col"></div>
 				</div>
 
 				<div class="d-flex gap-4">
-					<div class="card-table d-flex card col-9 p-3 mb-3">
+					<div class="card-table d-flex card col-10 p-3 mb-3">
 						<div class="d-flex flex-row justify-content-between align-items-center">
 							<span class="fs-5 fw-medium">Últimos serviços</span>
 							<div class="inputSearch col-4 d-flex justify-content-between">
@@ -69,6 +72,7 @@ require_once("./lib/connectionBaseTeste.php");
 							</div>
 						</div>
 						<hr>
+
 						<table class="table table-bordered">
 							<thead>
 								<tr align="center">
@@ -83,6 +87,62 @@ require_once("./lib/connectionBaseTeste.php");
 									<th>1</th>
 									<td>Mark</td>
 									<td>R$20,00</td>
+									<td><img src="./assets/img/BoxArrowUpRight.png" alt="Saiba mais" title="Saiba mais">
+									</td>
+								</tr>
+								<tr align="center">
+									<th>2</th>
+									<td>Jacob</td>
+									<td>R$40,00</td>
+									<td><img src="./assets/img/BoxArrowUpRight.png" alt="Saiba mais" title="Saiba mais">
+									</td>
+								</tr>
+								<tr align="center">
+									<th>2</th>
+									<td>Jacob</td>
+									<td>R$40,00</td>
+									<td><img src="./assets/img/BoxArrowUpRight.png" alt="Saiba mais" title="Saiba mais">
+									</td>
+								</tr>
+								<tr align="center">
+									<th>2</th>
+									<td>Jacob</td>
+									<td>R$40,00</td>
+									<td><img src="./assets/img/BoxArrowUpRight.png" alt="Saiba mais" title="Saiba mais">
+									</td>
+								</tr>
+								<tr align="center">
+									<th>2</th>
+									<td>Jacob</td>
+									<td>R$40,00</td>
+									<td><img src="./assets/img/BoxArrowUpRight.png" alt="Saiba mais" title="Saiba mais">
+									</td>
+								</tr>
+								<tr align="center">
+									<th>2</th>
+									<td>Jacob</td>
+									<td>R$40,00</td>
+									<td><img src="./assets/img/BoxArrowUpRight.png" alt="Saiba mais" title="Saiba mais">
+									</td>
+								</tr>
+								<tr align="center">
+									<th>2</th>
+									<td>Jacob</td>
+									<td>R$40,00</td>
+									<td><img src="./assets/img/BoxArrowUpRight.png" alt="Saiba mais" title="Saiba mais">
+									</td>
+								</tr>
+								<tr align="center">
+									<th>2</th>
+									<td>Jacob</td>
+									<td>R$40,00</td>
+									<td><img src="./assets/img/BoxArrowUpRight.png" alt="Saiba mais" title="Saiba mais">
+									</td>
+								</tr>
+								<tr align="center">
+									<th>2</th>
+									<td>Jacob</td>
+									<td>R$40,00</td>
 									<td><img src="./assets/img/BoxArrowUpRight.png" alt="Saiba mais" title="Saiba mais">
 									</td>
 								</tr>

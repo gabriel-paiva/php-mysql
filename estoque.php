@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
@@ -16,10 +16,11 @@
 </head>
 
 <body>
+    <nav>
+        <?php require_once "./html/navbar.php"; ?>
+    </nav>
+
     <section class="d-flex">
-        <nav class="col-2">
-            <?php require_once "./html/navbar.php"; ?>
-        </nav>
         <main class="col-10">
             <section class="px-4 pt-4 pb-4">
                 <div>

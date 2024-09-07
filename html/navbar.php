@@ -18,10 +18,10 @@
         <div class="pageOption py-3 ps-2 d-flex align-items-center gap-2">
             <img src="assets/img/icon/nav/servicesDone.svg" alt="Adicionar serviço">
             <a href="services.php" class="paragraph01 text-decoration-none">Serviços</a>
-        </div>  
+        </div>
         <div class="pageOption py-3 ps-2 d-flex align-items-center gap-2">
             <img src="assets/img/icon/nav/graphic.svg" alt="Ilustração de gráfico">
-            <a href="#" class="paragraph01 text-decoration-none">Gráficos</a>
+            <a href="relatorio.php" class="paragraph01 text-decoration-none">Gráficos</a>
         </div>
         <div class="pageOption py-3 ps-2 d-flex align-items-center gap-2">
             <a href="estoque.php" class="paragraph01 text-decoration-none">
